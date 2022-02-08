@@ -1,0 +1,12 @@
+package com.devansh.spring.springcore.autowiring;
+
+public class Snippet {
+	public static void main(String[] args) {
+		com.devansh.spring.springcore.autowiring
+		/springcore/src/main/java/com/devansh/spring/springcore/construct/Address.java
+		/springcore/src/main/java/com/devansh/spring/springcore/construct/Employee.java
+		/springcore/src/main/java/com/devansh/spring/springcore/construct/Test.java
+		/springcore/src/main/java/com/devansh/spring/springcore/construct/propconfig.xml
+	}
+}
+

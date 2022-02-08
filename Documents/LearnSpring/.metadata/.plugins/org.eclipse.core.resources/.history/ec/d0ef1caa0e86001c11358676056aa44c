@@ -1,0 +1,5 @@
+package com.devansh.spring.springjdbc.employee.entity;
+
+public class EmployeeDAOImpl implements EmployeeDAO {
+
+}

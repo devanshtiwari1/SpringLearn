@@ -1,0 +1,18 @@
+package com.devansh.spring.springjdbc.employee.test;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+import org.springframework.jdbc.core.JdbcTemplate;
+
+import com.devansh.spring.springjdbc.employee.entity.Employee;
+import com.devansh.spring.springjdbc.employee.entity.EmployeeDAO;
+
+public class Test {
+	public static void main(String args[]) {
+		ApplicationContext context = new ClassPathXmlApplicationContext("com/devansh/spring/springjdbc/employee/test/propconfig.xml");
+		EmployeeDAO jd =  (EmployeeDAO) context.getBean("employeeDao");
+		Employee emp=new Employee();
+		int res = jd.create(new Employee());
+		System.out.println("Number of records inserted are :" + res);
+	}
+}

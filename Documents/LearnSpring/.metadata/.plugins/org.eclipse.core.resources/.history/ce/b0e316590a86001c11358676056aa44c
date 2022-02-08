@@ -1,0 +1,8 @@
+package com.devansh.spring.springjdbc;
+
+public class Test {
+public static void main(Strimg args[])
+{
+	ApplicationContext context= new ClassPathXMLApplicationContext("com/devansh/spring/springjdbc/propconfig")
+}
+}

@@ -1,0 +1,13 @@
+package com.devansh.spring.springadvance.injecting.interfaces;
+
+public class OrderBOImpl implements OrderBO {
+	
+	private OrderDAO dao;
+
+	@Override
+	public void placeOrder() {
+		System.out.println("Inside OrderBO");
+
+	}
+
+}

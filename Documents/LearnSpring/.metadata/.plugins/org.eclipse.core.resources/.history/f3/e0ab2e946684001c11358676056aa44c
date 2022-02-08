@@ -1,0 +1,18 @@
+package com.devansh.spring.springcore.properties;
+import java.util.*;
+public class Properties {
+	private Propertiees rank;
+
+	public Propertiees getRank() {
+		return rank;
+	}
+
+	public void setRank(Propertiees rank) {
+		rank = rank;
+	}
+
+	@Override
+	public String toString() {
+		return "Properties [Rank=" + rank + "]";
+	}
+}

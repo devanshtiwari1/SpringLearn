@@ -1,0 +1,5 @@
+package com.devansh.spring.springcore.ref;
+
+public class Student {
+private Scores score;
+}

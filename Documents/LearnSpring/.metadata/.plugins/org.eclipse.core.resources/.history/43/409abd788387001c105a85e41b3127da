@@ -1,0 +1,12 @@
+package com.devansh.mvc;
+
+import org.springframework.stereotype.Controller;
+
+@Controller //tells spring framework it can create a it can create bean of this type
+public class HelloController {
+
+	public Modelandview hello()
+	{
+		Modelandview mv=new Modelandview();
+	}
+}

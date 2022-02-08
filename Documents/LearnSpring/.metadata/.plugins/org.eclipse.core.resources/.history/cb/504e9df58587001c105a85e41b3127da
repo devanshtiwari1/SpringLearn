@@ -1,0 +1,9 @@
+package com.devansh.mvc;
+
+public class Modelandview {
+
+	public void setviewName(String string) {
+		
+	}
+
+}

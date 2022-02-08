@@ -1,0 +1,5 @@
+package com.devansh.spring.springadvance.stereotype.annotations;
+
+public class Instructor {
+
+}
